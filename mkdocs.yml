@@ -1,0 +1,53 @@
+site_name: Charlie and Wolfie Photography
+site_description: Webpage for Charlie and Wolfie Photography
+site_author: Cathleen Lapadat
+site_url: https://nguye618.github.io/Charlie_and_Wolfie_Photography
+theme:
+  name: material
+  logo: 'charlie.png'
+  palette:
+    - scheme: default
+      primary: light green
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: slate
+      primary: light green
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.prune
+    - search.highlight
+    - search.share
+    - header.autohide
+  font:
+    text: Indie Flower
+  icon:
+    repo: fontawesome/brands/github
+plugins:
+  - search
+  - table-reader
+  - glightbox
+markdown_extensions:
+  - meta
+  - attr_list
+  - md_in_html
+repo_url: https://github.com/nguye618/Charlie_and_Wolfie_Photography
+repo_name: nguye618/Charlie_and_Wolfie_Photography
+edit_uri: ""
+nav:
+  - Home: 'index.md'
+  - Blog: 'Blog.md'
+  - Gallery:
+    - Charlie: 'Gallery_OnlyCharlie.md'
+    - Wolfies: 'Gallery_pets.md'
+    - Wildlife: 'Gallery_wildlife.md'
+    - Landscapes: 'Gallery_landscapes.md'
+  - About Me: 'about_me.md'
+  - Contact: 'contact.md'
