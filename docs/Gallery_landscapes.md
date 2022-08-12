@@ -1,7 +1,7 @@
 ---
 hide:
-  - toc
-  - footer
+ - toc
+ - footer
 ---
 
 #**Landscapes Gallery**

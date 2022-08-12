@@ -4,7 +4,7 @@ hide:
   - footer
 ---
 
-#**Only Charlie Gallery**
+#**Charlie Gallery**
 
 ![OnlyCharlie1](Gallery/Only Charlie/IMG_0654.jpg){: style="height:200px;width:133px", align=left}
 

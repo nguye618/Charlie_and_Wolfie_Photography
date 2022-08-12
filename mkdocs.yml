@@ -41,12 +41,14 @@ markdown_extensions:
 repo_url: https://github.com/nguye618/Charlie_and_Wolfie_Photography
 repo_name: nguye618/Charlie_and_Wolfie_Photography
 edit_uri: ""
+extra_css:
+  - css/extra.css
 nav:
   - Home: 'index.md'
   - Blog: 'Blog.md'
   - Gallery:
-    - Charlie: 'Gallery_OnlyCharlie.md'
-    - Wolfies: 'Gallery_pets.md'
+    - Charlie: 'Gallery_Charlie.md'
+    - Wolfies: 'Gallery_Wolfies.md'
     - Wildlife: 'Gallery_wildlife.md'
     - Landscapes: 'Gallery_landscapes.md'
   - About Me: 'about_me.md'
