@@ -1,1 +1,10 @@
-md-footer__inner { display: none }
+:root > * {
+  --md-primary-fg-color:        #546E7A;
+  --md-primary-bg-color:        #FFF9C4;
+  --md-footer-bg-color:         #CFD8DC;
+  --md-code-hl-name-color:      #212121;
+}
+
+.md-typeset {
+  font-size: 22px;
+}
