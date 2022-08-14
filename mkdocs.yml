@@ -7,14 +7,12 @@ theme:
   logo: 'charlie.png'
   palette:
     - scheme: default
-      primary: light green
-      accent: deep purple
+      primary: deep purple
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
     - scheme: slate
-      primary: light green
-      accent: light blue
+      primary: deep purple
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -27,9 +25,7 @@ theme:
     - search.share
     - header.autohide
   font:
-    text: Indie Flower
-  icon:
-    repo: fontawesome/brands/github
+    text: Send Flowers
 plugins:
   - search
   - table-reader
@@ -38,9 +34,11 @@ markdown_extensions:
   - meta
   - attr_list
   - md_in_html
-repo_url: https://github.com/nguye618/Charlie_and_Wolfie_Photography
-repo_name: nguye618/Charlie_and_Wolfie_Photography
 edit_uri: ""
+extra:
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/charlie_and_wolfie_photography
 extra_css:
   - css/extra.css
 nav:

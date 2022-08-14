@@ -3,4 +3,4 @@ hide:
  - footer
 ---
 
-# Welcome to Charlie and Wolfie Photography
+# **Welcome to Charlie and Wolfie Photography**
