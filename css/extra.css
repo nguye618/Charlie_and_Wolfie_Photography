@@ -1,10 +1,11 @@
 :root > * {
   --md-primary-fg-color:        #546E7A;
-  --md-primary-bg-color:        #FFF9C4;
-  --md-footer-bg-color:         #CFD8DC;
-  --md-code-hl-name-color:      #212121;
+  --md-primary-bg-color:        #FFEBEE;
+  --md-accent-fg-color:         #1A237E;
+  --md-footer-fg-color:         #B71C1C;
+  --md-footer-bg-color:         #EDE7F6;
 }
 
 .md-typeset {
-  font-size: 22px;
+  font-size: 24px;
 }
