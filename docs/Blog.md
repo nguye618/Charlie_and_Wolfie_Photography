@@ -4,5 +4,4 @@ hide:
   - toc
 ---
 
-**Charlie and Photography**  
-27 July 2022
+8.14.2022 - Title

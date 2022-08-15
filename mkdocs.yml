@@ -7,12 +7,10 @@ theme:
   logo: 'charlie.png'
   palette:
     - scheme: default
-      primary: deep purple
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
     - scheme: slate
-      primary: deep purple
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -25,7 +23,7 @@ theme:
     - search.share
     - header.autohide
   font:
-    text: Send Flowers
+    text: Pacifico
 plugins:
   - search
   - table-reader
@@ -39,11 +37,16 @@ extra:
   social:
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/charlie_and_wolfie_photography
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<charlieandwolfiephotography@gmail.com>
 extra_css:
   - css/extra.css
+extra_javascript:
+    - js/image-carousel.js
 nav:
   - Home: 'index.md'
-  - Blog: 'Blog.md'
+  - Blog:
+    - 8.14.2022: 'Blog.md'
   - Gallery:
     - Charlie: 'Gallery_Charlie.md'
     - Wolfies: 'Gallery_Wolfies.md'
