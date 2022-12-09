@@ -17,7 +17,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.top
     - navigation.prune
     - search.highlight
     - search.share
@@ -45,12 +44,6 @@ extra_javascript:
     - js/image-carousel.js
 nav:
   - Home: 'index.md'
-  - Blog:
-    - 8.14.2022: 'Blog.md'
-  - Gallery:
-    - Charlie: 'Gallery_Charlie.md'
-    - Wolfies: 'Gallery_Wolfies.md'
-    - Wildlife: 'Gallery_wildlife.md'
-    - Landscapes: 'Gallery_landscapes.md'
+  - Portfolio: 'portfolio.md'
   - About Me: 'about_me.md'
   - Contact: 'contact.md'

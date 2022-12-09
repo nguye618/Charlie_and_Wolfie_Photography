@@ -6,13 +6,11 @@ hide:
 
 #**Portfolio**
 
-![OnlyCharlie7](Gallery/Only Charlie/DSC_5950.JPEG){: style="height:133px;width:200px", align=left}
-
-![OnlyCharlie2](Gallery/Only Charlie/DSC_2872.jpg){: style="height:133px;width:200px", align=left}
-
-![OnlyCharlie8](Gallery/Only Charlie/DSC_4989.jpg){: style="height:133px;width:200px", align=left}
-
-![OnlyCharlie9](Gallery/Only Charlie/DSC_4810.jpg){: style="height:133px;width:200px", align=left}
+|![OnlyCharlie11](Gallery/Only Charlie/DSC_5693.JPEG)|![OnlyCharlie11](Gallery/Only Charlie/DSC_5693.JPEG)|![OnlyCharlie11](Gallery/Only Charlie/DSC_5693.JPEG)|
+|-|-|-|
+|![OnlyCharlie12](Gallery/Only Charlie/DSC_5264.jpg)|![OnlyCharlie13](Gallery/Only Charlie/DSC_4738.jpg)|![OnlyCharlie12](Gallery/Only Charlie/DSC_5264.jpg)|
+|![OnlyCharlie1](Gallery/Only Charlie/IMG_0654.jpg)|![OnlyCharlie3](Gallery/Only Charlie/DSC_8274.jpg)|![OnlyCharlie13](Gallery/Only Charlie/DSC_4738.jpg)|
+|![OnlyCharlie4](Gallery/Only Charlie/DSC_8281.jpg)|![OnlyCharlie11](Gallery/Only Charlie/DSC_5693.JPEG)|[OnlyCharlie1](Gallery/Only Charlie/IMG_0654.jpg)|
 
 ![OnlyCharlie11](Gallery/Only Charlie/DSC_5693.JPEG){: style="height:133px;width:200px", align=left}
 

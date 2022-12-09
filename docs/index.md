@@ -4,15 +4,14 @@ hide:
  - navigation
  - toc
 ---
-<div align="center">
-  Welcome to Charlie and Wolfie Photography
-</div>
+<div style="font-style: bold; text-align: center;" markdown="1">
 
-<div align="center">
-  Capturing moments in everyday life and celebrations.
+# Welcome to Charlie and Wolfie Photography
+  
+Capturing moments in everyday life and celebrations.
+
 </div>
 
 ![OnlyCharlie7](Gallery/Only Charlie/DSC_8008.jpg)
 
-[Meet Cathleen](nguye618.github.io/Charlie_and_Wolfie_Photography/about_me){ .md-button}
-
+[Meet Cathleen](about_me/){ .md-button }
