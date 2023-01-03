@@ -12,6 +12,6 @@ Capturing moments in everyday life and celebrations.
 
 </div>
 
-![OnlyCharlie7](Gallery/Only Charlie/DSC_8008.jpg)
+![OnlyCharlie7](images/Not_portfolio/DSC_8008.jpg)
 
 [Meet Cathleen](about_me/){ .md-button }
