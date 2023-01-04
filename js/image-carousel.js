@@ -1,7 +1,7 @@
 // $ cat docs/js/image-carousel.js 
 var keepTime = 2000;
 console.log("Carousel MKDocs");
-function updateCarousel(img) {
+function updateCarousel(jpg) {
   if (img.carouselRunning) {
     let outstyle = img.carousel[img.carouselIndex % img.carousel.length].style;
     outstyle.visibility = 'hidden';
@@ -12,10 +12,10 @@ function updateCarousel(img) {
     instyle.opacity = 1;
     instyle.position = 'absolute';
   }
-  setTimeout(updateCarousel, keepTime, img);
+  setTimeout(updateCarousel, keepTime, jpg);
 }
 
-function setCarouselEvents(img) {
+function setCarouselEvents(jpg) {
   img.style.visibility = 'hidden';
   img.style.transition = 'opacity 1.3s, visibility 1.3s';
   img.style.position = 'absolute';
@@ -25,23 +25,23 @@ function setCarouselEvents(img) {
       'mouseout', function(e) { this.carousel[0].carouselRunning = true; });
 }
 
-function setCarousel(img) {
+function setCarousel(jpg) {
   img.carouselRunning = true;
-  setCarouselEvents(img);
+  setCarouselEvents(jpg);
   img.carouselIndex = 0;
-  setTimeout(updateCarousel, 1, img);
+  setTimeout(updateCarousel, 1, jpg);
 }
 
-// fist we need to ask DOM for all p > img tags
-let imgs = document.querySelectorAll('P > IMG');
-for (let i = 1; i < imgs.length; i++) {
-  let h = imgs[i].naturalHeight;
-  let w = imgs[i].naturalWidth;
-  let pe = imgs[i].previousElementSibling;
+// fist we need to ask DOM for all p > jpg tags
+let jpgs = document.querySelectorAll('P > JPG');
+for (let i = 1; i < jpgs.length; i++) {
+  let h = jpgs[i].naturalHeight;
+  let w = jpgs[i].naturalWidth;
+  let pe = jpgs[i].previousElementSibling;
   if (!pe) {
     continue;
   }
-  if (pe.nodeName != "IMG") {
+  if (pe.nodeName != "JPG") {
     continue;
   }
   let sh = pe.naturalHeight;
@@ -49,14 +49,14 @@ for (let i = 1; i < imgs.length; i++) {
   if (sw != w || sh != h) {
     continue;
   }
-  if (imgs[i].carousel) {
+  if (jpgs[i].carousel) {
     continue;
   }
   if (!pe.carousel) {
     pe.carousel = [ pe ];
     setCarousel(pe);
   }
-  pe.carousel.push(imgs[i]);
-  imgs[i].carousel = pe.carousel;
-  setCarouselEvents(imgs[i]);
+  pe.carousel.push(jpgs[i]);
+  jpgs[i].carousel = pe.carousel;
+  setCarouselEvents(jpgs[i]);
   // set parent size
