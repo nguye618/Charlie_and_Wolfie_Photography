@@ -40,6 +40,7 @@ extra:
       link: mailto:<charlieandwolfiephotography@gmail.com>
 extra_css:
   - css/extra.css
+  - css/image.css
 extra_javascript:
     - js/image-carousel.js
 nav:

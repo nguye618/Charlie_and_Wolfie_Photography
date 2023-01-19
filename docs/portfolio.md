@@ -2,40 +2,94 @@
 hide:
   - toc
   - footer
+  - navigation
 ---
-
+<div style="font-style: bold; text-align: center;" markdown="1">
 #**Portfolio**
+</div>
 
-|![CWP1](images/Portfolio/DSC_2241.jpg)|![CWP2](images/Portfolio/DSC_1841.jpg)|![CWP3](images/Portfolio/DSC_1941.jpg)|
-|-|-|-|
-|![CWP4](images/Portfolio/DSC_2997.JPG)|![CWP5](images/Portfolio/DSC_2091.jpg)|![CWP6](images/Portfolio/DSC_4130.JPG)|
-|![CWP7](images/Portfolio/DSC_3233.JPG)|![CWP8](images/Portfolio/DSC_4453.JPG)|![CWP9](images/Portfolio/DSC_1749.JPG)|
-|![CWP10](images/Portfolio/DSC_7150.JPG)|![CWP11](images/Portfolio/DSC_4252.jpg)|![CWP12](images/Portfolio/DSC_2382.jpg)|
 
-ffmpeg \
--framerate 10 -loop 1 -t 5 -i 1.png \
--framerate 10 -loop 1 -t 5 -i 2.png \
--framerate 10 -loop 1 -t 5 -i 3.png \
--framerate 10 -loop 1 -t 5 -i 4.png \
--framerate 10 -loop 1 -t 5 -i 5.png \
--filter_complex \
-"[1]format=rgba,fade=d=1:t=in:alpha=1,setpts=PTS-STARTPTS+4/TB[f0]; \
- [2]format=rgba,fade=d=1:t=in:alpha=1,setpts=PTS-STARTPTS+8/TB[f1]; \
- [3]format=rgba,fade=d=1:t=in:alpha=1,setpts=PTS-STARTPTS+12/TB[f2]; \
- [4]format=rgba,fade=d=1:t=in:alpha=1,setpts=PTS-STARTPTS+16/TB[f3]; \
- [0][f0]overlay[bg1];[bg1][f1]overlay[bg2];[bg2][f2]overlay[bg3];[bg3][f3]overlay,split[v0][v1]; \
- [v0]palettegen[p];[v1][p]paletteuse[v]" -map "[v]" out.gif
- 
- ffmpeg \
--loop 1 -t 5 -i 1.png \
--loop 1 -t 5 -i 2.png \
--loop 1 -t 5 -i 3.png \
--loop 1 -t 5 -i 4.png \
--loop 1 -t 5 -i 5.png \
--filter_complex \
-"[1]format=yuva444p,fade=d=1:t=in:alpha=1,setpts=PTS-STARTPTS+4/TB[f0]; \
- [2]format=yuva444p,fade=d=1:t=in:alpha=1,setpts=PTS-STARTPTS+8/TB[f1]; \
- [3]format=yuva444p,fade=d=1:t=in:alpha=1,setpts=PTS-STARTPTS+12/TB[f2]; \
- [4]format=yuva444p,fade=d=1:t=in:alpha=1,setpts=PTS-STARTPTS+16/TB[f3]; \
- [0][f0]overlay[bg1];[bg1][f1]overlay[bg2];[bg2][f2]overlay[bg3]; \
- [bg3][f3]overlay,format=yuv420p[v]" -map "[v]" -movflags +faststart out.mp4
+
+<!-- Slideshow container -->
+<div class="slideshow-container fade">
+
+  <!-- Full images with numbers and message Info -->
+  <div class="Containers">
+    <href="https://www.flickr.com/photos/197541513@N08/52637208755/in/dateposted-public/">
+    <img src="https://live.staticflickr.com/65535/52637208755_2b5354444f_k.jpg" alt="1"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+
+  <div class="Containers">
+    <href="https://www.flickr.com/photos/197541513@N08/52636260472/in/dateposted-public/">
+    <img src="https://live.staticflickr.com/65535/52636260472_6765e50b7b_k.jpg" alt="2"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+
+  <div class="Containers">
+    <href="https://www.flickr.com/photos/197541513@N08/52637214615/in/dateposted-public/">
+    <img src="https://live.staticflickr.com/65535/52637214615_0eab3ed44e_k.jpg" alt="3"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+  
+  <div class="Containers">
+    <href="https://www.flickr.com/photos/197541513@N08/52637032434/in/dateposted-public/">
+    <img src="https://live.staticflickr.com/65535/52637032434_77d1a44016_k.jpg" alt="4"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+
+  <div class="Containers">  
+    <href="https://www.flickr.com/photos/197541513@N08/52637254838/in/dateposted-public/">
+    <img src="https://live.staticflickr.com/65535/52637254838_f2639944bc_k.jpg" alt="5"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+
+  <div class="Containers">  
+    <href="https://www.flickr.com/photos/197541513@N08/52637032769/in/dateposted-public/">
+    <img src="https://live.staticflickr.com/65535/52637032769_dd1112ab66_k.jpg" alt="6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+  
+  <div class="Containers">  
+    <href="https://www.flickr.com/photos/197541513@N08/52637030904/in/dateposted-public/">
+    <img src="https://live.staticflickr.com/65535/52637030904_2f88f8555f_k.jpg" alt="7"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+
+  <div class="Containers">  
+    <href="https://www.flickr.com/photos/197541513@N08/52636261912/in/dateposted-public/">
+    <img src="https://live.staticflickr.com/65535/52636261912_3cc38d8f98_k.jpg" alt="8"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+
+  <div class="Containers">  
+    <href="https://www.flickr.com/photos/197541513@N08/52637214820/in/dateposted-public/">
+    <img src="https://live.staticflickr.com/65535/52637214820_00935fd561_k.jpg" alt="9"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+
+  <div class="Containers">  
+    <href="https://www.flickr.com/photos/197541513@N08/52636770921/in/dateposted-public/">     <img src="https://live.staticflickr.com/65535/52636770921_e46449c6aa_k.jpg" alt="10"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+  
+  <div class="Containers">  
+    <href="https://www.flickr.com/photos/197541513@N08/52636771691/in/dateposted-public/"><img src="https://live.staticflickr.com/65535/52636771691_15598c3796_k.jpg" alt="11"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+
+  <div class="Containers">  
+    <href="https://www.flickr.com/photos/197541513@N08/52636259467/in/dateposted-public/">
+    <img src="https://live.staticflickr.com/65535/52636259467_1b6e124e8b_k.jpg" alt="12"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+
+  <!-- Back and forward buttons -->
+  <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The circles/dots -->
+<div style="text-align:center">
+  <span class="dots" onclick="currentSlide(1)"></span>
+  <span class="dots" onclick="currentSlide(2)"></span>
+  <span class="dots" onclick="currentSlide(3)"></span>
+  <span class="dots" onclick="currentSlide(4)"></span>
+  <span class="dots" onclick="currentSlide(5)"></span>
+  <span class="dots" onclick="currentSlide(6)"></span>
+  <span class="dots" onclick="currentSlide(7)"></span>
+  <span class="dots" onclick="currentSlide(8)"></span>
+  <span class="dots" onclick="currentSlide(9)"></span>
+  <span class="dots" onclick="currentSlide(10)"></span>
+  <span class="dots" onclick="currentSlide(11)"></span>
+  <span class="dots" onclick="currentSlide(12)"></span>
+</div> 
