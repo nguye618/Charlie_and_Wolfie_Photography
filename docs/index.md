@@ -33,7 +33,7 @@ Capturing moments in everyday life and celebrations.
   <a href="https://nguye618.github.io/Charlie_and_Wolfie_Photography/about_me/" class="button">
   Meet Cathleen
     <button class="btn">
-          <i class='fas fa-cat' style="color:#546E7A"></i>
+          <i class='fas fa-cat' style="color:#E8ADAA"></i>
   </a>
 
 </div>
