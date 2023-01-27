@@ -9,3 +9,8 @@
 .md-typeset {
   font-size: 24px;
 }
+
+.icons i,
+.icons svg {
+   color: #2759AE;
+}
