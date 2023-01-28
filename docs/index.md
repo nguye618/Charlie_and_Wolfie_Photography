@@ -19,8 +19,9 @@ output:
         padding: 10px 20px;
         text-align: center;
         text-decoration: none;
-        color: #ffffff;
-        background-color: #FFCBA4;
+        color: #0a0a0a;
+        background-color: #E8ADAA;
+        border-color: #546E7A; 
         border-radius: 6px;
         outline: none;
       }
@@ -33,7 +34,7 @@ Capturing moments in everyday life and celebrations.
   <a href="https://nguye618.github.io/Charlie_and_Wolfie_Photography/about_me/" class="button">
   Meet Cathleen
     <button class="btn">
-          <i class='fas fa-cat' style="color:#E8ADAA"></i>
+          <i class='fas fa-cat' style="color:#546E7A"></i>
   </a>
 
 </div>
