@@ -3,7 +3,7 @@
   --md-primary-bg-color:        #FFEBEE;
   --md-accent-fg-color:         #1A237E;
   --md-footer-fg-color:         #B71C1C;
-  --md-footer-bg-color:         #EDE7F6;
+  --md-footer-bg-color:         #546E7A;
 }
 
 .md-typeset {
@@ -13,4 +13,20 @@
 .icons i,
 .icons svg {
    color: #2759AE;
+}
+
+.fcf-body {
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0000ff;
+    text-align: left;
+}
+
+input[type="text"]
+{
+    font-family: cursive;
+}
+.fcf-form-group {
+    font-family: cursive;
 }
