@@ -188,9 +188,49 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
+<style> 
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+</style>
 <h1 id="contact"><strong>Contact</strong></h1>
-<p><strong>Feel free to contact me via email for booking inquiries.</strong></p>
-<p><strong>charlieandwolfiephotography [at] gmail.com</strong></p>
+<p style="font-family: Comic Sans MS">Feel free to contact me by filling out the form below or <a href="mailto: abc@example.com">email me</a> directly.</p>
+<form action="form.php" class="fcf-form-class" form="" id="fcf-form-id" method="post">
+<div class="fcf-form-group">
+<label class="fcf-label" for="FirstName">First Name</label>
+<div class="fcf-input-group">
+<input class="fcf-form-control" font-family=":cursive" id="Name" name="Name" required="" type="text">
+</input></div>
+<div class="fcf-form-group">
+<label class="fcf-label" for="LastName">Last Name</label>
+<div class="fcf-input-group">
+<input class="fcf-form-control" id="Name" name="Name" required="" type="text">
+</input></div>
+<div class="fcf-form-group">
+<label class="fcf-label" for="Email">Your email address</label>
+<div class="fcf-input-group">
+<input class="fcf-form-control" id="Email" name="Email" required="" type="text">
+</input></div>
+<div class="fcf-form-group">
+<label class="fcf-label" for="Message">Write your message here:</label>
+<div class="fcf-input-group">
+<textarea class="fcf-form-control" cols="81" id="Message" maxlength="3000" name="Message" rows="6"></textarea>
+</div>
+</div>
+<div class="fcf-form-group">
+<button class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" id="fcf-button" type="submit">Send</button>
+</div></div></div></div></form>
 </article>
 </div>
 </div>
@@ -214,12 +254,6 @@
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
 <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
-      Material for MkDocs
-    </a>
 </div>
 <div class="md-social">
 <a class="md-social__link" href="https://instagram.com/charlie_and_wolfie_photography" rel="noopener" target="_blank" title="instagram.com">

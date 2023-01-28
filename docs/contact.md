@@ -6,7 +6,7 @@ hide:
 ---
 <style> 
 input[type=text] {
-  width: 20%;
+  width: 30%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -25,13 +25,14 @@ input[type=text]:focus {
 
 <p style="font-family: Comic Sans MS">Feel free to contact me by filling out the form below or <a href = "mailto: abc@example.com">email me</a> directly.</p>
   
-  <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-    <label for="Name" class="fcf-label">First Name</label>
+  <form id="fcf-form-id" class="fcf-form-class" method="post" form action="form.php">
+    <div class="fcf-form-group">
+    <label for="FirstName" class="fcf-label">First Name</label>
     <div class="fcf-input-group">
       <input type="text" id="Name" name="Name" class="fcf-form-control" required font-family=:cursive>
     </div>
   <div class="fcf-form-group">
-    <label for="Name" class="fcf-label">Last Name</label>
+    <label for="LastName" class="fcf-label">Last Name</label>
     <div class="fcf-input-group">
     <input type="text" id="Name" name="Name" class="fcf-form-control" required>
   </div>

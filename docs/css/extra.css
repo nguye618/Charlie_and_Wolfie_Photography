@@ -22,3 +22,11 @@
     color: #0000ff;
     text-align: left;
 }
+
+input[type="text"]
+{
+    font-family: cursive;
+}
+.fcf-form-group {
+    font-family: cursive;
+}
