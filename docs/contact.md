@@ -4,49 +4,36 @@ hide:
  - toc
  - navigation
 ---
-<style> 
-input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 3px solid #ccc;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
+<style>
+p {text-align: center;}
+  .horizontal_line {
+      background-color: black;
+      width: 100%;
+      height: 1px;
+      line-height: 1%;
+}
+  
+  .line {
+      border-bottom: 5px solid red;
+      margin-top: 5px;
+      width: 90%;
 }
 
-input[type=text]:focus {
-  border: 3px solid #555;
-}
 </style>
-
 # **Contact**
 
-<p style="font-family: Comic Sans MS">Feel free to contact me by filling out the form below or <a href = "mailto: abc@example.com">email me</a> directly.</p>
-  
-  <form id="fcf-form-id" class="fcf-form-class" method="post" form action="form.php">
-    <div class="fcf-form-group">
-    <label for="FirstName" class="fcf-label">First Name</label>
-    <div class="fcf-input-group">
-      <input type="text" id="Name" name="Name" class="fcf-form-control" required font-family=:cursive>
-    </div>
-  <div class="fcf-form-group">
-    <label for="LastName" class="fcf-label">Last Name</label>
-    <div class="fcf-input-group">
-    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-  </div>
-    <div class="fcf-form-group">
-    <label for="Email" class="fcf-label">Your email address</label>
-    <div class="fcf-input-group">
-    <input type="text" id="Email" name="Email" class="fcf-form-control" required>
-  </div>
-    <div class="fcf-form-group">
-    <label for="Message" class="fcf-label">Write your message here:</label>
-    <div class="fcf-input-group">
-    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" cols="81"></textarea>
-            </div>
-        </div>
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
-        </div>
+
+<p style="font-family: Comic Sans MS">For booking and session inquiries, feel free to contact me directly via <a href = "mailto: abc@example.com">email</a>.</p>
+
+<div>
+  <href="https://www.flickr.com/photos/197541513@N08/52658511467/in/dateposted-public/">
+  <img src="https://live.staticflickr.com/65535/52658511467_d7cb223322_k.jpg" width=100%, height=100% alt="sunset"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+
+
+<br>
+
+<div class="horizontal_line">
+</div>
+<p style="font-family: Gill Sans">Charlie and Wolfie Photography is available throughout South Florida.</p>
+<p style="font-family: Comic Sans MS"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>

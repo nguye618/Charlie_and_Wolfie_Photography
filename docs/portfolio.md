@@ -4,7 +4,23 @@ hide:
   - footer
   - navigation
 ---
-<div style="font-style: bold; text-align: center;" markdown="1">
+<div style="font-style: bold; text-align: left;" markdown="1">
+<style>
+p {text-align: center;}
+  .horizontal_line {
+      text-align: center;
+      background-color: black;
+      width: 100%;
+      height: 1px;
+      line-height: 1%;
+}
+  
+  .line {
+      border-bottom: 5px solid red;
+      margin-top: 5px;
+      width: 90%;
+}
+</style>
 #**Portfolio**
 </div>
 
@@ -94,3 +110,10 @@ hide:
   <span class="dots" onclick="currentSlide(11)"></span>
   <span class="dots" onclick="currentSlide(12)"></span>
 </div> 
+
+<br>
+
+<div class="horizontal_line">
+</div>
+<p style="font-family: Gill Sans">Charlie and Wolfie Photography is available throughout South Florida.</p>
+<p style="font-family: Gill Sans"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>
