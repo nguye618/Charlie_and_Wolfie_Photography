@@ -5,7 +5,7 @@ hide:
  - navigation
 ---
 <style>
-p {text-align: center;}
+p {}
   .horizontal_line {
       background-color: black;
       width: 100%;
@@ -35,5 +35,7 @@ p {text-align: center;}
 
 <div class="horizontal_line">
 </div>
+<div align="center">
 <p style="font-family: Gill Sans">Charlie and Wolfie Photography is available throughout South Florida.</p>
-<p style="font-family: Comic Sans MS"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>
+<p style="font-family: Gill Sans"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>
+</div>
