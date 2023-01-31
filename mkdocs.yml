@@ -39,16 +39,17 @@ extra:
   social:
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/charlie_and_wolfie_photography
+      name: Instagram
     - icon: fontawesome/solid/paper-plane
       link: mailto:<charlieandwolfiephotography@gmail.com>
+      name: Email
   generator: false
+copyright: Copyright &copy; 2023 Cathleen Lapadat
 extra_css:
   - css/extra.css
   - css/image.css
-extra_javascript:
-    - js/image-carousel.js
 nav:
   - Home: 'index.md'
-  - Portfolio: 'portfolio.md'
+  - Portfolio: 'portfolio2.md'
   - About Me: 'about_me.md'
   - Contact: 'contact.md'

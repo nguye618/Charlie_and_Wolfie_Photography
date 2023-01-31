@@ -4,7 +4,8 @@ hide:
   - footer
   - navigation
 ---
-<div style="font-style: bold; text-align: left;" markdown="1">
+<div style="font-style: bold; text-align: center;" markdown="1">
+
 <style>
 p {text-align: center;}
   .horizontal_line {
@@ -23,9 +24,6 @@ p {text-align: center;}
 </style>
 #**Portfolio**
 </div>
-
-
-
 <!-- Slideshow container -->
 <div class="slideshow-container fade">
 

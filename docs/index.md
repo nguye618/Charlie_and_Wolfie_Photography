@@ -24,12 +24,19 @@ p {text-align: center;}
       margin-top: 5px;
       width: 90%;
 }
-</style>
-
-# Welcome to Charlie and Wolfie Photography
-
-  <style>
-      .button {
+      body {
+        background: #f9ebea;
+      }
+      .box {
+        width: 40%;
+        height: 200px;
+        border: 5px solid gold;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+.button {
         display: inline-block;
         padding: 10px 20px;
         text-align: center;
@@ -40,19 +47,23 @@ p {text-align: center;}
         border-radius: 6px;
         outline: none;
       }
-  </style>
-  
+</style>
+<link rel="shortcut icon" href="https://freeiconshop.com/wp-content/uploads/edd/camera-outline-filled.png" />
+
+# Welcome to Charlie and Wolfie Photography
+
 Capturing moments in everyday life and celebrations.
+</div> 
 
-![Charlie](images/Not_portfolio/DSC_8008.jpg)
+<img src="https://live.staticflickr.com/65535/52660988786_77cdf0fa01_k.jpg">
 
-  <a href="https://nguye618.github.io/Charlie_and_Wolfie_Photography/about_me/" class="button">
+</div>
+  </div>
+    <a href="https://nguye618.github.io/Charlie_and_Wolfie_Photography/about_me/" class="button">
   Meet Cathleen
     <button class="btn">
           <i class='fas fa-cat' style="color:#546E7A"></i>
   </a>
-
-</div>
 
 <br>
 
