@@ -48,18 +48,18 @@ p {text-align: center;}
 <body>
 
 <div class="w3-content w3-section">
-  <img align="center"class="mySlides" src="https://live.staticflickr.com/65535/52637208755_2b5354444f_k.jpg" style="width:80%">
-  <img class="mySlides" src="https://live.staticflickr.com/65535/52636260472_6765e50b7b_k.jpg" style="width:80%">
-  <img class="mySlides" src="https://live.staticflickr.com/65535/52637214615_0eab3ed44e_k.jpg" style="width:80%">
-  <img class="mySlides" src="https://live.staticflickr.com/65535/52637032434_77d1a44016_k.jpg" style="width:80%">
-  <img class="mySlides" src="https://live.staticflickr.com/65535/52637254838_f2639944bc_k.jpg" style="width:80%">
-  <img class="mySlides" src="https://live.staticflickr.com/65535/52637032769_dd1112ab66_k.jpg" style="width:80%">
-  <img class="mySlides" src="https://live.staticflickr.com/65535/52637030904_2f88f8555f_k.jpg" style="width:80%">
-  <img class="mySlides" src="https://live.staticflickr.com/65535/52636261912_3cc38d8f98_k.jpg" style="width:80%">
-  <img class="mySlides" src="https://live.staticflickr.com/65535/52637214820_00935fd561_k.jpg" style="width:80%">
-  <img class="mySlides" src="https://live.staticflickr.com/65535/52636770921_e46449c6aa_k.jpg" style="width:80%">
-  <img class="mySlides" src="https://live.staticflickr.com/65535/52652652349_2c7e41f12a_k.jpg" style="width:80%">
-  <img class="mySlides" src="https://live.staticflickr.com/65535/52636259467_1b6e124e8b_k.jpg" style="width:80%">
+  <img align="center"class="mySlides" src="https://live.staticflickr.com/65535/52637208755_2b5354444f_k.jpg" style="width:100%">
+  <img class="mySlides" src="https://live.staticflickr.com/65535/52636260472_6765e50b7b_k.jpg" style="width:100%">
+  <img class="mySlides" src="https://live.staticflickr.com/65535/52637214615_0eab3ed44e_k.jpg" style="width:100%">
+  <img class="mySlides" src="https://live.staticflickr.com/65535/52637032434_77d1a44016_k.jpg" style="width:100%">
+  <img class="mySlides" src="https://live.staticflickr.com/65535/52637254838_f2639944bc_k.jpg" style="width:100%">
+  <img class="mySlides" src="https://live.staticflickr.com/65535/52637032769_dd1112ab66_k.jpg" style="width:100%">
+  <img class="mySlides" src="https://live.staticflickr.com/65535/52637030904_2f88f8555f_k.jpg" style="width:100%">
+  <img class="mySlides" src="https://live.staticflickr.com/65535/52636261912_3cc38d8f98_k.jpg" style="width:100%">
+  <img class="mySlides" src="https://live.staticflickr.com/65535/52637214820_00935fd561_k.jpg" style="width:100%">
+  <img class="mySlides" src="https://live.staticflickr.com/65535/52636770921_e46449c6aa_k.jpg" style="width:100%">
+  <img class="mySlides" src="https://live.staticflickr.com/65535/52652652349_2c7e41f12a_k.jpg" style="width:100%">
+  <img class="mySlides" src="https://live.staticflickr.com/65535/52636259467_1b6e124e8b_k.jpg" style="width:100%">
 </div>
 
 <script>
