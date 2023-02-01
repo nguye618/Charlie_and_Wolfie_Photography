@@ -1,7 +1,7 @@
 site_name: Charlie and Wolfie Photography
 site_description: Webpage for Charlie and Wolfie Photography
 site_author: Cathleen Lapadat
-site_url: http://www.charlieandwolfiephotography.com
+site_url: https://charlieandwolfiephotography.com
 theme:
   name: material
   logo: 'charlie.png'
