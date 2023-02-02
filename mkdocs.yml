@@ -43,6 +43,9 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:<charlieandwolfiephotography@gmail.com>
       name: Email
+    - icon: fontawesome/brands/flickr
+      link: https://www.flickr.com/people/197541513@N08/
+      name: Flickr
   generator: false
 copyright: Copyright &copy; 2023 Cathleen Lapadat
 extra_css:

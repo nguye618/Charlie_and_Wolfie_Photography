@@ -35,7 +35,7 @@ p {}
 # **Contact**
 
 
-<p style="font-family: Comic Sans MS">For booking and session inquiries, feel free to contact me directly via <a href = "mailto: abc@example.com">email</a>.</p>
+<p style="font-family: Comic Sans MS">Candids are at the heart of my photography. To capture authentic moments, I have designed an unconventional session that focuses around a family activity of your choosing. I also provide more conventional sessions (e.g. engagement/pregnancy announcements, newborn, and growth at all stages). For session details and booking, feel free to contact me directly via <a href = "mailto: abc@example.com">email</a>.</p>
 
 <div>
   <href="https://www.flickr.com/photos/197541513@N08/52658511467/in/dateposted-public/">
