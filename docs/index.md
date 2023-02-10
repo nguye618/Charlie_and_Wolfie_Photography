@@ -10,8 +10,9 @@ hide:
 <style>
 h1 {text-align:center;}
   .firstheader {
-    font-family: Sacramento
-  }
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+}
 p {text-align: center;}
   .horizontal_line {
       background-color: black;
@@ -46,6 +47,9 @@ p {text-align: center;}
         outline: none;
       }
 </style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+</style>
 <link rel="shortcut icon" href="https://freeiconshop.com/wp-content/uploads/edd/camera-outline-filled.png" />
 
 <head>
@@ -53,6 +57,7 @@ p {text-align: center;}
 <meta property="og:description" content="Capturing moments in everyday life and celebrations" />
 <meta property="og:url" content="https://www.charlieandwolfiephotography.com" />
 <meta property="og:image" content="https://live.staticflickr.com/65535/52660988786_77cdf0fa01_k.jpg" />
+
 <head>
 
 <h1 class="firstheader">Welcome to Charlie and Wolfie Photography</h1>

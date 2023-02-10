@@ -9,7 +9,7 @@ hide:
 <style>
 h1 {text-align:center;}
   .firstheader {
-    font-family: Sacramento
+    font-family: 'Sacramento', cursive;
   }
 p {text-align: center;}
   .horizontal_line {
