@@ -7,6 +7,10 @@ hide:
 <div style="font-style: bold; text-align: center;" markdown="1">
 
 <style>
+h1 {text-align:center;}
+  .firstheader {
+    font-family: Sacramento
+  }
 p {text-align: center;}
   .horizontal_line {
       text-align: center;
@@ -15,15 +19,20 @@ p {text-align: center;}
       height: 1px;
       line-height: 1%;
 }
-  
-  .line {
-      border-bottom: 5px solid red;
-      margin-top: 5px;
-      width: 90%;
-}
+  .emailleft{
+      text-align: left;
+  }
 </style>
-#**Portfolio**
-</div>
+<link rel="shortcut icon" href="https://freeiconshop.com/wp-content/uploads/edd/camera-outline-filled.png" />
+
+<head>
+<meta property="og:title" content="Charlie and Wolfie Photography" />
+<meta property="og:description" content="Capturing moments in everyday life and celebrations" />
+<meta property="og:url" content="https://www.charlieandwolfiephotography.com" />
+<meta property="og:image" content="https://live.staticflickr.com/65535/52660988786_77cdf0fa01_k.jpg" />
+<head>
+
+<h1 class="firstheader">Welcome to Charlie and Wolfie Photography</h1>
 <!-- Slideshow container -->
 <div class="slideshow-container fade">
 
@@ -86,32 +95,12 @@ p {text-align: center;}
     <href="https://www.flickr.com/photos/197541513@N08/52636259467/in/dateposted-public/">
     <img src="https://live.staticflickr.com/65535/52636259467_1b6e124e8b_k.jpg" alt="12"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   </div>
-
-  <!-- Back and forward buttons -->
-  <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="forward" onclick="plusSlides(1)">&#10095;</a>
-</div>
 <br>
-
-<!-- The circles/dots -->
-<div style="text-align:center">
-  <span class="dots" onclick="currentSlide(1)"></span>
-  <span class="dots" onclick="currentSlide(2)"></span>
-  <span class="dots" onclick="currentSlide(3)"></span>
-  <span class="dots" onclick="currentSlide(4)"></span>
-  <span class="dots" onclick="currentSlide(5)"></span>
-  <span class="dots" onclick="currentSlide(6)"></span>
-  <span class="dots" onclick="currentSlide(7)"></span>
-  <span class="dots" onclick="currentSlide(8)"></span>
-  <span class="dots" onclick="currentSlide(9)"></span>
-  <span class="dots" onclick="currentSlide(10)"></span>
-  <span class="dots" onclick="currentSlide(11)"></span>
-  <span class="dots" onclick="currentSlide(12)"></span>
-</div> 
 
 <br>
 
 <div class="horizontal_line">
 </div>
-<p style="font-family: Gill Sans">Charlie and Wolfie Photography is available throughout South Florida.</p>
-<p style="font-family: Gill Sans"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>
+<p style="font-family: Caveat">Charlie and Wolfie Photography is available throughout South Florida.</p>
+<p style="font-family: Caveat"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>
+</div>

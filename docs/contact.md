@@ -5,6 +5,10 @@ hide:
  - navigation
 ---
 <style>
+h1 {text-align:center;}
+  .firstheader {
+    font-family: Sacramento
+  }
 p {}
   .horizontal_line {
       background-color: black;
@@ -18,9 +22,6 @@ p {}
       margin-top: 5px;
       width: 90%;
 }
-      body {
-        background: #f9ebea;
-      }
       .box {
         width: 40%;
         height: 200px;
@@ -32,8 +33,15 @@ p {}
       }
 </style>
 <link rel="shortcut icon" href="https://freeiconshop.com/wp-content/uploads/edd/camera-outline-filled.png" />
-# **Contact**
 
+<head>
+<meta property="og:title" content="Charlie and Wolfie Photography" />
+<meta property="og:description" content="Capturing moments in everyday life and celebrations" />
+<meta property="og:url" content="https://www.charlieandwolfiephotography.com" />
+<meta property="og:image" content="https://live.staticflickr.com/65535/52660988786_77cdf0fa01_k.jpg" />
+<head>
+
+<h1 class="firstheader">Contact</h1>
 
 <p style="font-family: Comic Sans MS">Candids are at the heart of my photography. To capture authentic moments, I have designed an unconventional session that focuses around a family activity of your choosing. I also provide more conventional sessions (e.g. engagement/pregnancy announcements, newborn, and growth at all stages). For session details and booking, feel free to contact me directly via <a href = "mailto: abc@example.com">email</a>.</p>
 
@@ -48,6 +56,5 @@ p {}
 <div class="horizontal_line">
 </div>
 <div align="center">
-<p style="font-family: Gill Sans">Charlie and Wolfie Photography is available throughout South Florida.</p>
-<p style="font-family: Gill Sans"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>
-</div>
+<p style="font-family: Caveat">Charlie and Wolfie Photography is available throughout South Florida.</p>
+<p style="font-family: Caveat"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>

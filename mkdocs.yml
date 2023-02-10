@@ -22,7 +22,7 @@ theme:
     - search.share
     - header.autohide
   font:
-    text: Pacifico
+    text: Caveat
 plugins:
   - search
   - table-reader

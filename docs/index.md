@@ -3,14 +3,15 @@ hide:
   - footer
   - navigation
   - toc
-output: 
-  html_document:
-    css: CSSbackgrounds.css
 ---
 <div style="font-style: bold; text-align: center;" markdown="1">
 <script src="https://kit.fontawesome.com/1602728312.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://kit.fontawesome.com/1602728312.css" crossorigin="anonymous">
 <style>
+h1 {text-align:center;}
+  .firstheader {
+    font-family: Sacramento
+  }
 p {text-align: center;}
   .horizontal_line {
       background-color: black;
@@ -24,9 +25,6 @@ p {text-align: center;}
       margin-top: 5px;
       width: 90%;
 }
-      body {
-        background: #f9ebea;
-      }
       .box {
         width: 40%;
         height: 200px;
@@ -50,8 +48,14 @@ p {text-align: center;}
 </style>
 <link rel="shortcut icon" href="https://freeiconshop.com/wp-content/uploads/edd/camera-outline-filled.png" />
 
-# Welcome to Charlie and Wolfie Photography
+<head>
+<meta property="og:title" content="Charlie and Wolfie Photography" />
+<meta property="og:description" content="Capturing moments in everyday life and celebrations" />
+<meta property="og:url" content="https://www.charlieandwolfiephotography.com" />
+<meta property="og:image" content="https://live.staticflickr.com/65535/52660988786_77cdf0fa01_k.jpg" />
+<head>
 
+<h1 class="firstheader">Welcome to Charlie and Wolfie Photography</h1>
 Capturing moments in everyday life and celebrations.
 </div> 
 
@@ -69,5 +73,6 @@ Capturing moments in everyday life and celebrations.
 
 <div class="horizontal_line">
 </div>
-<p style="font-family: Gill Sans">Charlie and Wolfie Photography is available throughout South Florida.</p>
-<p style="font-family: Gill Sans"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>
+
+<p style="font-family: Caveat">Charlie and Wolfie Photography is available throughout South Florida.</p>
+<p style="font-family: Caveat"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>

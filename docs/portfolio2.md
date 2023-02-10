@@ -7,6 +7,10 @@ hide:
 <div style="font-style: bold; text-align: center;" markdown="1">
 
 <style>
+h1 {text-align:center;}
+  .firstheader {
+    font-family: Sacramento
+  }
 p {text-align: center;}
   .horizontal_line {
       text-align: center;
@@ -35,7 +39,15 @@ p {text-align: center;}
       }
 </style>
 <link rel="shortcut icon" href="https://freeiconshop.com/wp-content/uploads/edd/camera-outline-filled.png" />
-#**Portfolio**
+
+<head>
+<meta property="og:title" content="Charlie and Wolfie Photography" />
+<meta property="og:description" content="Capturing moments in everyday life and celebrations" />
+<meta property="og:url" content="https://www.charlieandwolfiephotography.com" />
+<meta property="og:image" content="https://live.staticflickr.com/65535/52660988786_77cdf0fa01_k.jpg" />
+<head>
+
+<h1 class="firstheader">Portfolio</h1>
 </div>
 
 <!DOCTYPE html>
@@ -86,5 +98,5 @@ function carousel() {
 
 <div class="horizontal_line">
 </div>
-<p style="font-family: Gill Sans">Charlie and Wolfie Photography is available throughout South Florida.</p>
-<p style="font-family: Gill Sans"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>
+<p style="font-family: Caveat">Charlie and Wolfie Photography is available throughout South Florida.</p>
+<p style="font-family: Caveat"><a href = "mailto: abc@example.com">Email: charlieandwolfiephotography@gmail.com</a></p>
