@@ -39,19 +39,23 @@ p {}
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Sacramento&display=swap');
 </style>
 
+<head>
+  <meta property="og:title" content="Charlie and Wolfie Photography" />
+  <meta property="og:description" content="Capturing moments in everyday life and celebrations" />
+  <meta property="og:url" content="https://www.charlieandwolfiephotography.com" />
+  <meta property="og:image" content="https://live.staticflickr.com/65535/52660988786_77cdf0fa01_k.jpg" />
+  <meta charset="UTF-8" />
+  <meta name="description" content="Charlie and Wolfie Photography provides candid family portraits and other photography services in South Florida" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="author" content="Cathleen Lapadat" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
 <link rel="shortcut icon" href="https://freeiconshop.com/wp-content/uploads/edd/camera-outline-filled.png" />
-
-<head>
-<meta property="og:title" content="Charlie and Wolfie Photography" />
-<meta property="og:description" content="Capturing moments in everyday life and celebrations" />
-<meta property="og:url" content="https://www.charlieandwolfiephotography.com" />
-<meta property="og:image" content="https://live.staticflickr.com/65535/52660988786_77cdf0fa01_k.jpg" />
-
-
-<head>
+<link rel="canonical" href="https://www.charlieandwolfiephotography.com/" />
+<title>Charlie and Wolfie Photography - About Cathleen Lapadat</title>
 
 <h1 class="firstheader">About Me</h1>
-
+</head>
 <DIV align="left">
 <p class="bodytest">Hello! My name is Cathleen Lapadat and I am a photographer based in Boynton Beach, Florida. I am a mother of a little toddler named Charlie with a baby girl on the way. I have spent several years photographing wildlife and nature as a hobby. As a recent stay-at-home mom, I have realized how important it is to photograph memories of Charlie throughout his development and growth. I find unbridled joy in doing so and relentlessly revisit these memories through my photos. My goal is to provide the same sentiment for other families while capturing people in their most authentic and vulnerable selves. My focus is on candid family portraits but I am open to photographing weddings and events.</p>
 <p class="bodytest"">Please contact me directly via email for session options and details.</p>

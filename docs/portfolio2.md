@@ -20,15 +20,14 @@ p {text-align: center;}
       height: 1px;
       line-height: 1%;
 }
-  
+  .bodytest{
+      font-family: 'Patrick Hand', cursive;
+  } 
   .line {
       border-bottom: 5px solid red;
       margin-top: 5px;
       width: 90%;
 }
-      body {
-        background: #f9ebea;
-      }
       .box {
         width: 40%;
         height: 200px;
@@ -42,18 +41,24 @@ p {text-align: center;}
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 </style>
+
+<head>
+  <meta property="og:title" content="Charlie and Wolfie Photography" />
+  <meta property="og:description" content="Capturing moments in everyday life and celebrations" />
+  <meta property="og:url" content="https://www.charlieandwolfiephotography.com" />
+  <meta property="og:image" content="https://live.staticflickr.com/65535/52660988786_77cdf0fa01_k.jpg" />
+  <meta charset="UTF-8" />
+  <meta name="description" content="Charlie and Wolfie Photography provides candid family portraits and other photography services in South Florida" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="author" content="Cathleen Lapadat" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
 <link rel="shortcut icon" href="https://freeiconshop.com/wp-content/uploads/edd/camera-outline-filled.png" />
-
-<head>
-<meta property="og:title" content="Charlie and Wolfie Photography" />
-<meta property="og:description" content="Capturing moments in everyday life and celebrations" />
-<meta property="og:url" content="https://www.charlieandwolfiephotography.com" />
-<meta property="og:image" content="https://live.staticflickr.com/65535/52660988786_77cdf0fa01_k.jpg" />
-
-<head>
+<link rel="canonical" href="https://www.charlieandwolfiephotography.com/" />
+<title>Charlie and Wolfie Photography - Portfolio</title>
 
 <h1 class="firstheader">Portfolio</h1>
-</div>
+</head>
 
 <!DOCTYPE html>
 <html>

@@ -27,6 +27,7 @@ plugins:
   - search
   - table-reader
   - glightbox
+  - tags
 markdown_extensions:
   - meta
   - attr_list
@@ -37,15 +38,22 @@ markdown_extensions:
 edit_uri: ""
 extra:
   social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/charlieandwolfiephotography
+      name: Facebook
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/charlie_and_wolfie_photography
       name: Instagram
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:<charlieandwolfiephotography@gmail.com>
-      name: Email
+    - icon: fontawesome/brands/google
+      link: https://g.co/kgs/TF1NwY
+      name: Google Business
     - icon: fontawesome/brands/flickr
       link: https://www.flickr.com/people/197541513@N08/
       name: Flickr
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<charlieandwolfiephotography@gmail.com>
+      name: Email
+
   generator: false
 copyright: Copyright &copy; 2023 Cathleen Lapadat
 extra_css:
